@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+
+}
+body{
+    background-color: rgba(82, 73, 19, 0.452);
+
+}
+
+/**Navbar section**/
+.navbar-container{
+    background-color:tomato;
+    margin-top:1px;
+
+}
+.header-logo-image{
+    height:100px;
+    width:20vw;
+
+}
+
+
+.header-logo{
+    height:100px;
+    background-color:tomato;
+    width:30%;
+    float:left;
+    align-items:center;
+}
+.navbar{
+    height:100px;
+    background-color:tomato;
+    width:70%;
+    float:right;
+    display :flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    float:right;
+    
+}
+
+.navbar > a {
+    font-size:25px;
+    color:white;
+    padding:10px;
+    border:2px black solid;
+    border-radius: 100px;
+    text-decoration: none;
+
+}
+.navbar >a:hover{
+    color:rgba(255, 230, 0, 0.637);
+    border:2px rgb(255, 187, 0) solid;
+    
+}
+.clear-div{
+    clear:both;
+}
+
+/**Newspapers**/
+.newspapers-box-link {
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.newspapers-box-link >div{
+    border:2px black solid;
+    background-color: white;
+    flex-grow:1;
+   margin:25px 30px 15px 50px;
+    justify-content: center;
+}
+.newspapers-box-link >div:hover{
+    
+    border-color: green ;
+}
+.newspapers-box-link >img{
+    width:150px;
+    height:100px;
+  
+}
+
+.newspapers-box-link >div> a{
+ text-decoration: none;
+ color:black;
+ 
+}
+.newspapers-box-link > div > a> .newsnames{
+    margin-top:0;
+    
+    height:30px;
+    width:157px;
+    padding-left:30px;
+   
+}
+/**Footer Section**/
+.footer-div{
+width: 100%;
+height:100px;
+background-color:rgba(71, 131, 150, 0.479);
+color:white;
+font-size: larger;
+}
+
+.under-div{
+    padding:20px;
+}
